@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Unlock&display=swap');
+@import 'animate.css';
+
+.fade-exit-active {
+  animation: fadeOutLeft 0.5s forwards;
+}
